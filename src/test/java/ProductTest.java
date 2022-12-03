@@ -14,4 +14,12 @@ public class ProductTest {
         int actual = product.getAge();
         Assertions.assertEquals(expected,actual);
     }
+       @Test
+
+    public void shouldGet1(){
+
+        int expected = 12;
+        int actual = product.getAge();
+        Assertions.assertEquals(expected,actual);
+    }
 }
