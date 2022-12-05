@@ -10,7 +10,7 @@ public class ProductTest {
 
     public void shouldGet(){
 
-        int expected = 12;
+        int expected = 11;
         int actual = product.getAge();
         Assertions.assertEquals(expected,actual);
     }
@@ -18,7 +18,7 @@ public class ProductTest {
 
     public void shouldGet1(){
 
-        int expected = 12;
+        int expected = 11;
         int actual = product.getAge();
         Assertions.assertEquals(expected,actual);
     }
